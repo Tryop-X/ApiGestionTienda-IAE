@@ -109,8 +109,6 @@ public class ImplServicioBalance implements ServicioBalance {
 
     @Override
     public void deleteBalance(Integer idBalance) {
-        System.out.println("tienda vera");
-        System.out.println("Array de pruueba")
         this.repositorioBalance.deleteById(idBalance);
     }
 }
